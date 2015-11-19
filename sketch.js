@@ -15,7 +15,6 @@ function draw(){
   background(255);
  // var xoffset=map(mouseX,0,width,-width*3,-width);
  // translate(xoffset,-600);
- // scale(8);
   image(geomap,20,10,600,330);
   for(var i=0; i<cities.getRowCount();i+=1){
     var city = cities.getString(i,"realname");
